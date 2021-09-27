@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'FormulaRegular';
+  src: url("./assets/fonts/Formula1-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'FormulaBold';
+  src: url("./assets/fonts/Formula1-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: 'FormulaBlack';
+  src: url("./assets/fonts/Formula1-Black.ttf") format("truetype");
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +20,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #181a1b;
+  color: #e8e6e3;
+  overflow: hidden;
 }
 
 code {

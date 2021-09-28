@@ -1,30 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 import Card from './Card';
+import { Drivers } from '../assets/Drivers';
 
 function GameField() {
   return (
     <GameFieldWrapper>
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
-        <Card />
+        {Drivers.map(driver => {
+          return <Card
+                    key={driver.id}
+                    url={driver.url}
+                    name={driver.name}
+                 />;
+        })}
     </GameFieldWrapper>
   );
 }

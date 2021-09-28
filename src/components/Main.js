@@ -19,6 +19,7 @@ const MainWrapper = styled.div`
     grid-template-columns: 1fr;
     justify-items: center;
     margin: 0 auto;
+    margin-top: 9rem;
     padding-bottom: 41rem;
-    width: 1200px;
+    width: 100%;
 `;

@@ -16,8 +16,11 @@ function App() {
 export default App;
 
 const AppWrapper = styled.main`
-  display: flex;
-  flex-direction: column;
-  min-height: 80vh;
+  display: grid;
+  grid-template-columns: minmax(1000px, 1400px);
+  grid-template-rows: 7rem 1fr;
+  justify-content: center;
+  min-height: 100vh;
+  row-gap: 1rem;
 `;
 /* Grey border color #847a6c */

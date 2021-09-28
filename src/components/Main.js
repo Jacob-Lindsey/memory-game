@@ -6,8 +6,8 @@ import Score from './Score';
 function Main() {
   return (
     <MainWrapper>
-        <Score />
-        <GameField />
+      <Score />
+      <GameField />
     </MainWrapper>
   );
 }

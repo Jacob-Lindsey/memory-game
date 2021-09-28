@@ -1,15 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import styled from 'styled-components';
+import AppContext from './AppContext';
 import Main from './components/Main';
 import Header from './components/Header';
 import './App.css';
 
 function App() {
+
+  const [progress, setProgress] = useState([...Array(20).fill(false)]);
+  const [progressCount, setProgressCount] = useState(0);
+  const [gameWon, setGameWon] = useState(false);
+  const gameContext = {
+    progress,
+    progressCount,
+    gameWon,
+    setProgress,
+    setProgressCount,
+    setGameWon,
+  };
+
+
   return (
-    <AppWrapper>
-      <Header />
-      <Main />
-    </AppWrapper>
+    <AppContext.Provider value={gameContext}>
+      <AppWrapper>
+        <Header />
+        <Main />
+      </AppWrapper>
+    </AppContext.Provider>
   );
 }
 

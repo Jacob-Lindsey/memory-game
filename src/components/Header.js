@@ -32,7 +32,7 @@ const LogoWrapper = styled.span`
 
 const HeaderLogo = styled.img`
   line-height: normal;
-  clip-path: polygon(0% 0%, 0% 100%, 75% 100%, 100% 51%, 100% 0%);
+  clip-path: polygon(0% 0%, 0% 100%, 50% 100%, 100% 51%, 100% 0%);
 `;
 
 const HeaderText = styled.p`

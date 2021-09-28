@@ -2,11 +2,12 @@ import React from 'react';
 import styled from 'styled-components';
 import Card from './Card';
 import { Drivers } from '../assets/Drivers';
+import Shuffle from '../Shuffle';
 
 function GameField() {
   return (
     <GameFieldWrapper>
-        {Drivers.map(driver => {
+        {Shuffle(Drivers).map(driver => {
           return <Card
                     key={driver.id}
                     url={driver.url}

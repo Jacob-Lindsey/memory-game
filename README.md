@@ -2,5 +2,4 @@
 
 **The Odin Project**
 
-![App Screenshot](https://imgur.com/a/lSpFqbO)
-
+![App Screenshot](https://i.imgur.com/xdoNBYj.png)

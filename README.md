@@ -1,3 +1,6 @@
 # Memory Game
 
-## The Odin Project
+**The Odin Project**
+
+![App Screenshot](https://imgur.com/a/lSpFqbO)
+

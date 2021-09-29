@@ -10,8 +10,8 @@ function Score() {
   return (
     <ScoreWrapper>
       <DeltaWrapper>
-        <Timer />
-        <BestScore>Best :&nbsp;&nbsp;{timeDelta}</BestScore>
+        <BestScore>Delta :&nbsp; 00:00:000</BestScore>
+        <BestScore>Best :&nbsp; 00:00:000</BestScore>
       </DeltaWrapper>
       <ProgressBar />
     </ScoreWrapper>
@@ -38,7 +38,6 @@ const DeltaWrapper = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin: 0 auto;
     margin-top: 2.5rem;
     width: 80%;
 `;
@@ -47,6 +46,6 @@ const BestScore = styled.div`
     font-family: 'FormulaBold';
     font-size: 2rem;
     text-align: center;
-    text-indent: 4rem;
+    text-indent: 1rem;
     width: 100%;
 `;

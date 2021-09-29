@@ -58,8 +58,7 @@ function Timer() {
   
   return (
     <TimerWrapper>
-      <span>Delta :</span>
-      &nbsp;&nbsp;
+      Delta :&nbsp;&nbsp;
       {buildTimer(time)}
     </TimerWrapper>
   );
@@ -78,5 +77,4 @@ const TimerWrapper = styled.div`
 `;
 
 const TimeValueWrapper = styled.div`
-  width: 50%;
 `;
